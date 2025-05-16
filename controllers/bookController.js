@@ -23,12 +23,14 @@ const getBookById = async (req, res) => {
 
 // CREATE a book
 const createBook = async (req, res) => {
-  const { title, author } = req.body;
-  const newBook = new Book({ title, author });
-
   try {
-    const savedBook = await newBook.save();
-    res.status(201).json(savedBook);
+    const { title, author } = req.body; 
+    if (!title || !author) {
+      return res.status(400).json({ message: 'Title and author are required' });
+  }
+  const newBook = new Book({ title, author });
+  const savedBook = await newBook.save();
+  res.status(201).json(savedBook);
   } catch (err) {
     res.status(400).json({ message: err.message });
   }
@@ -40,10 +42,12 @@ const updateBook = async (req, res) => {
     const updatedBook = await Book.findByIdAndUpdate(
       req.params.id,
       { $set: req.body },
-      { new: true }
+      { new: true, runValidators: true }
     );
+    
     if (!updatedBook) return res.status(404).json({ message: 'Book not found' });
     res.json(updatedBook);
+  
   } catch (err) {
     res.status(400).json({ message: 'Invalid ID or update error' });
   }

@@ -9,10 +9,14 @@ dotenv.config({ path: path.resolve(__dirname, '.env') });
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-mongoose.connect(process.env.MONGO_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-})
+//Middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+//Routes
+app.use('/api/books', bookRoutes);
+
+mongoose.connect(process.env.MONGO_URI)
 .then(() => {
   console.log('Connected to MongoDB');
   app.listen(PORT, () => {
@@ -21,7 +25,7 @@ mongoose.connect(process.env.MONGO_URI, {
 })
 .catch(err => {
   console.error('MongoDB connection error:', err);
+  process.exit(1);
 });
 
-app.use(express.json());
-app.use('/api/books', bookRoutes);
+
