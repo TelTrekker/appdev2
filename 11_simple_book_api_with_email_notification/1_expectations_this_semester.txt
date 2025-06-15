@@ -1,0 +1,54 @@
+Introduction (100-150 words)
+Tell me a little about yourself. What programming languages or technologies do you know? Do you have any experience with backend development or Node.js?
+I’m Kristel Mapayo. Here are some fun facts about me. I enjoy fashion and self-care. I'm an earphone and music addict 24/7, which may cause me some hearing issues. 
+I like Sinigang and dislike cliche novels. My hidden and useless talent is balancing my rice and meals evenly, waking up too early but not an alarm clock, and glancing back 
+at others at the perfect time. Things that inspired me to be involved in the IT field are the development and workshops of gaming and gadgets like robotics. I already know 
+some basic programming languages like Python and Java. I am also familiar with some basics of C++ but have not mastered it. Typical web programming languages HTML/CSS, 
+Javascript, PHP, React, and some command prompts in git bash and cmd. Unfortunately, even though I have ideas about the backend, I don't have any experience in its 
+development, such as node.js.
+
+Course Expectations (200-300 words)
+What do you want to achieve in this course?
+What specific skills do you hope to learn (e.g., building APIs, using Node.js and Express)?
+How do you think backend development will help you in your career or studies?
+First, I wish to get back and build a strong foundation of my programming skills, such as mastering the basics of programming and understanding the concepts, data 
+structures, and algorithms so I won’t have problems creating code from scratch or have no problem to manipulating and experimenting the code development, have no problem 
+solving and debugging and error handling, and know how to organize and style my repository. Second, since the back end is crucial this semester, I want to learn about the 
+server side of programming, such as API, databases, frameworks, and more. Understanding its concepts and applying them with technical skills is essential. The first specific 
+skill I would like to develop is mastering the coding concepts and logic of programming with server languages such as React with Node.js, though I would like to explore more 
+coding like Express. Since React and Nodejs are more popular, I will learn them first. I want to learn more about  API RESTful development. First, understand its theoretical 
+concepts and how the system works. I need to learn more about data structures before applying them in technical terms. If I could, I would also like to learn and explore 
+AWS, Azure, and some load testing like Jest and Postman. I also want to get comfortable practicing developing version control in GitHub for my personalized future portfolio 
+so I won’t have a messy repository and have no problem in branching. These backend development skills will help me to build my technical skills in my capstone project and 
+explore my future jobs, such as API development and cloud computing, where I can explore more job opportunities and boot camp opportunities. I aspire to balance mastering 
+the basics and creating practical development with being creative and gaining hands-on experience in real-world projects.
+
+
+Challenges and Areas for Improvement (150-200 words)
+Are there any topics that you find difficult or want to improve on (e.g., working with databases, building APIs, error handling)?
+How do you plan to overcome these challenges during the course?
+Many coding development lessons are difficult to learn and apply technically, as in most scenarios, I find it hard to manipulate and experiment with the code seamlessly. In 
+general, I always end up messing with the code after making some modifications, and I sometimes find it hard to fix the errors and understand why the code is not working as 
+expected. Sometimes, I am afraid to mess up the code. That is why I want to understand and improve more complex logic, perhaps trying some recursion, nested loops, and some 
+short-hand techniques available. I also want to improve in organizing my codebase using GitHub, and I am not yet comfortable structuring my repository. I need to find and 
+understand the structures first before diving into them. I plan to overcome these challenges during this course by reaching out and asking for help from my peers and 
+instructor, and I will try to be proactive about improving these skills by breaking them down into small steps. One of my struggles in procrastination is low motivation and 
+lack of commitment. Instead of keeping fun projects, I get overwhelmed by projects easily and take the last minute to finish their project. 
+
+
+Expectations from the Instructor (100-150 words)
+What do you expect from me as your instructor to help you succeed in this course?
+Are there any resources, teaching methods, or tools that would help you learn better (e.g., coding examples, tutorials, additional resources)?
+I do not expect too much from my instructor but to be understanding and patient about these issues. I guess some slowing down in topics might help, but it also depends on 
+time constraints for both parties. I am starting to see the fun side of developing these projects, and maybe it's time for some refreshment if that helps me succeed. I have 
+no idea about any additional resources, teaching methods, or tools that will help me and others learn collectively. But it helps a lot more when learning with some 
+interactive activities, such as helping to debug error messages independently or giving some try-out codes, but not all. I also learned more by understanding how all of 
+those topics connected. It gives me clarity and a clear understanding of the structure of those technical skills. 
+
+
+Final Thoughts (Optional, 50-100 words)
+Anything else you'd like to add about your goals for the course or how you want to learn?
+In personal growth, I want to overcome the underlying root of my procrastination and fear of failure and meet my technical skills by building confidence in debugging, 
+meeting deadlines, and breaking down tasks into smaller ones. Learning and mastering technical basics is essential for me without over-grinding by applying hands-on learning 
+and adding journals or visuals for concepts. I could try to use templates, customize them, and handle some errors. Lastly, explore New IT skills, take beginner courses, some 
+IT job opportunities, and some friendly platforms available.
