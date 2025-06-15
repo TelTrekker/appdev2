@@ -1,4 +1,0 @@
-"This is a sample file."
-Appended content.
-Appended content.
-Appended content.
